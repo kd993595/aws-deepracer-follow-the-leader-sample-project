@@ -203,7 +203,7 @@ class ObjectDetectionNode(Node):
                                               detected bounding box center.
         """
         bb_center_x = top_left_x + ((bottom_right_x - top_left_x) / 2.0)
-        bb_center_y = bottom_right_y
+        bb_center_y = max(bottom_right_y, 1.0)
         return bb_center_x, bb_center_y
 
     def calculate_delta(self, target_x, target_y, bb_center_x, bb_center_y):

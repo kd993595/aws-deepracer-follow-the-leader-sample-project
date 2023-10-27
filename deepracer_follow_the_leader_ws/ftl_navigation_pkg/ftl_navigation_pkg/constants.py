@@ -49,8 +49,8 @@ class DeltaValueMap():
                   | delta_y      |    N/A     -0.06   -0.11   -0.14   -0.15
 
     """
-    REVERSE_DELTA_Y = 0.11
-    FORWARD_DELTA_Y = -0.14
+    REVERSE_DELTA_Y = 0.50
+    FORWARD_DELTA_Y = 0.30
     REVERSE_RIGHT_DELTA_X = -0.25
     REVERSE_LEFT_DELTA_X = 0.25
     FORWARD_RIGHT_DELTA_X = 0.13

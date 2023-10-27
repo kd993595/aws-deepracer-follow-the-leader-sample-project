@@ -5,7 +5,6 @@
 </p>
 
 ## Overview
-#some change
 The AWS DeepRacer Follow the Leader (FTL) sample project is an sample application built on top of the existing AWS DeepRacer application, which uses an object-detection machine learning model through which the AWS DeepRacer device can identify and follow a person. For detailed information on the FTL sample project, see the [Getting started](https://github.com/aws-deepracer/aws-deepracer-follow-the-leader-sample-project/blob/main/getting-started.md) section.
 
 ## License
@@ -52,7 +51,7 @@ Open a terminal on the AWS DeepRacer device and run the following commands as th
 
 1. Clone the entire FTL sample project on the AWS DeepRacer device:
  
-        git clone https://github.com/7Gao/aws-deepracer-follow-the-leader-sample-project.git
+        git clone https://github.com/kd993595/aws-deepracer-follow-the-leader-sample-project.git
 
 1. Go to the work space:
 

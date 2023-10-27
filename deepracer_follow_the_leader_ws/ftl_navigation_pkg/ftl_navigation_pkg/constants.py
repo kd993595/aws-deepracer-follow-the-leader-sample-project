@@ -49,6 +49,16 @@ class DeltaValueMap():
                   | delta_y      |    N/A     -0.06   -0.11   -0.14   -0.15
 
     """
+    REVERSE_DELTA_Y = 0.06
+    FORWARD_DELTA_Y = -0.09
+    REVERSE_RIGHT_DELTA_X = -0.3
+    REVERSE_LEFT_DELTA_X = 0.3
+    FORWARD_RIGHT_DELTA_X = 0.11
+    FORWARD_FAST_RIGHT_DELTA_X = 0.25
+    FORWARD_LEFT_DELTA_X = -0.11
+    FORWARD_FAST_LEFT_DELTA_X = -0.25
+
+    """
     REVERSE_DELTA_Y = 0.11
     FORWARD_DELTA_Y = -0.14
     REVERSE_RIGHT_DELTA_X = -0.25
@@ -57,6 +67,7 @@ class DeltaValueMap():
     FORWARD_FAST_RIGHT_DELTA_X = 0.33
     FORWARD_LEFT_DELTA_X = -0.13
     FORWARD_FAST_LEFT_DELTA_X = -0.33
+    """
 
 
 class ActionSpaceKeys():
